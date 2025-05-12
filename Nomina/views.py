@@ -5,3 +5,5 @@ from django.http import HttpResponse
 def Inicio (request):
 
     return render(request,"Inicio.jinja")
+def Listado(request):
+    return render(request,"Listado.jinja")
