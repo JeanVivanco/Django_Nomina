@@ -13,6 +13,7 @@ class Empleado(models.Model):
     SEXO_CHOICES = [
     ('M', 'Masculino'),
     ('F', 'Femenino'),
+    ('O', 'Otro'),
     ]
 
     nombre = models.CharField(max_length=100)
